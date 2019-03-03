@@ -1,0 +1,23 @@
+<package>
+	<id>com.stephrost.anemone</id>
+	<name>Anemone(legacy)</name>
+	<version>1.1-81</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>6.0</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>(last anemone to work on iOS 6) An awesome theme manager! included in conflicts {com.codethemed.iconbundles, winterboard, org.coolstar.themelib}</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>

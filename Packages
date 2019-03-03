@@ -1,28 +1,207 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: com.anemonetheming.anemone3
+Version: 3.0~beta5
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, pincrush
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: ./debs/com.stephrost.anemone3_3.0_beta5_iphoneos-arm.deb
+Size: 11285692
+MD5sum: 7adc37c9c7050089c23477ea9ebc2f91
+SHA1: 51820af9f2954bdb062df47845d71dd11abda0e5
+SHA256: 3e177109f268d7dc9d4b5a7b1b16126ed31f68e5c0772489123c7207f71ef847
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Name: Anemone 3
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
+Package: com.anemonetheming.anemone3-extsb
+Version: 3.0~beta3
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, com.anemonetheming.anemone3 (>=3.0~beta3)
+Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
+Provides: org.coolstar.classicdock, org.coolstar.classicbadges
+Filename: ./debs/com.stephrost.anemone3-extsb_3.0_beta3_iphoneos-arm.deb
+Size: 20820
+MD5sum: d4e616d5cc60725ae52e5515c87ab3b9
+SHA1: 9ec1371fbbadf8f56fc7b4fd956f5a9e12193930
+SHA256: 124548fcc9e6f801350279b921167ddd969c0b59664fa87968b3d03935ab813f
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Name: Anemone 3 SpringBoard Extension Pack
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3-extsb
+
+Package: com.yourepo.stephrostt.anemone
+Version: 1.1-81
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: anemoneteam.anemone, org.coolstar.customclock, com.idd.iconomatic
+Filename: ./debs/com.stephrost.anemone_1.1-81_iphoneos-arm.deb
+Size: 1757302
+MD5sum: 388c603e8b59335fae663958fc7755e1
+SHA1: 148bc76c6c649fc8ca90fdcfd842022048fca279
+SHA256: e8b010ff2d7697e0eb0267d7cb73fee757f46d432623bf925e42dc97e885ad05
+Section: Tweaks
+Description: (last anemone to work on iOS 6) An awesome theme manager! included in conflicts {com.codethemed.iconbundles, winterboard, org.coolstar.themelib}
+Author: stephrostt <stephrostt@gmail.com>
+Name: Anemone
+
+Package: com.yourepo.stephrostt.appinfo163b6
+Version: 1.6.3b7
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Depends: dpkg, p7zip
+Filename: ./debs/com.stephrost.appinfo_163b6_iphoneos-arm.deb
+Size: 797664
+MD5sum: a59e9b5d5df11fc1f7b41266821d45de
+SHA1: 143da2151417a8fefc50efa1d3c065b43832b4cf
+SHA256: 1645fb4f7e2a6021268ee397042b89d10ea734317d7e756bd23ac8f338686b3a
+Section: Utilities
+Description: displays informations about installed apps, export data from native apps (like SMS and iMessage) and possibility to send song by email.
+Author: stephrostt <stephrostt@gmail.com>
+Name: AppInfo 1.6.3b6
+
+Package: com.yourepo.stephrostt.auxobeta141-381debug
+Version: 1.4.1-382
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist, com.a3tweaks.flipswitch (>> 1.0)
+Filename: ./debs/com.stephrost.auxobeta_141-381debug_iphoneos-arm.deb
+Size: 869498
+MD5sum: 478797439f5d82a5314861c3476fce3d
+SHA1: aea6bf89b50c36269147345c4630e5b015ea5c22
+SHA256: 43ddad060326ac99c3fd362f7b2421c4ec26828e366316a20e47fbcc860530f0
+Section: Tweaks
+Description: A bleeding edge, nightly beta of the popular app switcher, Awkso.
+Author: stephrostt <stephrostt@gmail.com>
+Name: Awkso-Beta
+
+Package: com.yourepo.stephrostt.bundlr
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Filename: ./debs/com.stephrost.bundlr_0.0.2_iphoneos-arm.deb
+Size: 222794
+MD5sum: d20d64a2643826520fe51b1c9ce3d723
+SHA1: 44d87277b9b017a2d913ce4100f30b2e3d7a5613
+SHA256: bbd471e25a107943cf869a989f2fcd227a9e18518a015482efccd672d42b6957
+Section: Utilities
+Description: Bundlr is a small app for designers. Bundlr makes it simple to lookup app bundle ids without having to download the app from the AppStore. This is a very limited initial release so don't expect much more than bare bones. Currently it only works for the US appstore and only iphone apps. I'll add in iPad apps and changing the appstore country. Also more awesome features will get added in the near future.
+Author: stephrostt <stephrostt@gmail.com>
+Name: Bundlr
+
+Package: com.yourepo.stephrostt.clickunlock
+Version: 0.0.1.1
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.stephrost.clickunlock_0.0.1.1_iphoneos-arm.deb
+Size: 4318
+MD5sum: ea8e4511f741ee6297160b7c5c2d1b26
+SHA1: 66b99fcf320d2c395b83dee998a9bae2138f8e57
+SHA256: d59dee25d97bf69baf5ede7a13c023ef06be625fadd2b0f855ae071bd2d4cd08
+Section: Tweaks
+Description: Unlock your device iOS 10 style! (originally from https://festival.ml/repo)
+Author: stephrostt <stephrostt@gmail.com>
+Name: ClickUnlock
+
+Package: com.yourepo.stephrostt.fluxfixup
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.stephrost.fluxfixup_1.0.0-2_iphoneos-arm.deb
+Size: 2524
+MD5sum: 03cf609c22e217fa44a337c8bdc30ef2
+SHA1: a0639c9ed6ea200f62a02256aab3cdd09650c7f4
+SHA256: 161bfa81e7a040f0a0579eda90fe763e0c8c11da2b4260a59f592afa3283ee0f
+Section: Tweaks
+Description: Fix f.lux not running on etason8.4.1 JB after reboot.
+Author: stephrostt <stephrostt@gmail.com>
+Name: fluxedup
+
+Package: com.yourepo.stephrostt.minimalhostsblocker
+Version: 7.3
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
+Filename: ./debs/com.stephrost.minimalhostsblocker_7.3_iphoneos-arm.deb
+Size: 5574
+MD5sum: 6925769bac807a0f540132fc5f98fc3b
+SHA1: 999994bab9bf7748625c65f20c2bce5dac6466dc
+SHA256: c33c56f352c96ccf40bf3e453b93d939bae9afe6f8b0f506a98798091b8ce1fe
+Section: Tweaks
+Description: A Minimal Ad Blocker! ^_^ (originally from http://reddestdream.github.io)
+Author: stephrostt <stephrostt@gmail.com>
+Name: Minimal Hosts Blocker
+
+Package: com.yourepo.stephrostt.siliqua
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.stephrost.siliqua_1.0-2_iphoneos-arm.deb
+Size: 29826
+MD5sum: 011337315c0f02e93ab95c30c97182b9
+SHA1: bafc52d02d4b3e06e19b0fb3301eb9bdea0904ff
+SHA256: 6c1b17b5cddff34e46271f06670dafddd161194dc014caf4fc71cbdc591cc56b
+Section: Tweaks
+Description: AirPods Gestures and New Features
+Author: stephrostt <stephrostt@gmail.com>
+Name: Sillyqua
+
+Package: com.yourepo.stephrostt.swipeback
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Depends: firmware (>= 4.0), mobilesubstrate, applist (>= 1.4.3), preferenceloader (>= 2)
+Filename: ./debs/com.stephrost.swipeback_1.0.2_iphoneos-arm.deb
+Size: 15666
+MD5sum: db4eb9a8c35c321c3300efb0a75d250f
+SHA1: a80334be2ba4d4e4eb2c3be03961a0af8b347ac2
+SHA256: 6d959e5f89c5d52318bdcb4c26ddce749c1ef5f18c0ce3dd98d40528ea435837
+Section: Tweaks
+Description: swipe from edges to navigate app UI
+Author: stephrostt <stephrostt@gmail.com>
+Name: SwipeBack
+
+Package: com.yourepo.stephrostt.themelib001-1
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Depends: mobilesubstrate, winterboard
+Filename: ./debs/com.stephrost.themelib_001-1_0.0.1-1_iphoneos-arm.deb
+Size: 53346
+MD5sum: f59673d59e1316524af3b4c39e621976
+SHA1: 41376bf48cff70e300abcfe579a7ab1a31d26a2a
+SHA256: feb2c6463541cdabdc97ac87927c7b8b083277e4d53bf4c3e6a991752f9f2010
+Section: Tweaks
+Description: legacy theming tweak, complement to winterboard and iconbundles
+Author: stephrostt <stephrostt@gmail.com>
+Name: ThemeLib 0.0.1-1
+
+Package: com.yourepo.stephrostt.winterboard093915
+Version: 0.9.3915
+Architecture: iphoneos-arm
+Maintainer: stephrostt <stephrostt@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, libhide (>= 2.0.4), findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
+Conflicts: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Filename: ./debs/com.stephrost.winterboard_093915_iphoneos-arm.deb
+Size: 155150
+MD5sum: 5f5bbfc478ddf2ba8a762af8c4ea2c88
+SHA1: ed88386ccee9de65ca88dc49837436e81d28810a
+SHA256: 83672c038d39e0799a1f6b41418ad74b87cc23112c9b81803edcdb1a3de6b188
+Section: System
+Description: (last winterboard with springboard icon) more powerful, open-source SummerBoard
+Author: stephrostt <stephrostt@gmail.com>
+Name: WinterBoard
 

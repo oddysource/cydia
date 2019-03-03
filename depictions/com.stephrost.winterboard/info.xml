@@ -1,0 +1,23 @@
+<package>
+	<id>com.stephrost.winterboard</id>
+	<name>Winterboard(legacy)</name>
+	<version>.093915</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>7.0</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>This is an old package. Requires iOS 7 and below..</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Final release of Winterboard.app to support springboard icon.</change>
+	</changelog>
+	<links></links>
+</package>
